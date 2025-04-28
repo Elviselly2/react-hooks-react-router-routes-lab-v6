@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Card from "../components/ReusableCard";
 import NavBar from "../components/NavBar";
-
+import { Link } from "react-router-dom";
 function Actors() {
   const [actors, setActors] = useState([]);
 

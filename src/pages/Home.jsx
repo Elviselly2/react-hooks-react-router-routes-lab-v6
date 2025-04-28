@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import MovieCard from "../components/MovieCard";
 import NavBar from "../components/NavBar";
-
+import { Link } from "react-router-dom";
 function Home() {
   const [movies, setMovies] = useState([]);
 

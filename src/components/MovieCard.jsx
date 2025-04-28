@@ -4,12 +4,10 @@ import { Link } from "react-router-dom";
 function MovieCard({ id, title }) {
   return (
     <div>
-      <Link to={`/movie/${id}`}>
-        <h3>{title}</h3>
-      </Link>
+      <h2>{title}</h2> {/* Movie title should be the heading */}
+      <Link to={`/movie/${id}`}>View Info</Link> {/* Keep link text separate */}
     </div>
   );
 }
-
 
 export default MovieCard;

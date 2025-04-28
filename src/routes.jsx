@@ -3,7 +3,7 @@ import Actors from "./pages/Actors";
 import Directors from "./pages/Directors";
 import Movie from "./pages/Movie";
 import ErrorPage from "./pages/ErrorPage";
-
+import { Link } from "react-router-dom";
 const routes = [
   {
     path: "/",

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import NavBar from "../components/NavBar";
-
+import { Link } from "react-router-dom";
 function Directors() {
   const [directors, setDirectors] = useState([]);
 
